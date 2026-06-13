@@ -38,10 +38,9 @@ graph TD
     D --> E[RUN_ENCODE]
     D --> F[RUN_POLYPHEN]
     
-    style A fill:#f9f,stroke:#333,stroke-width:2px
-    style D fill:#bbf,stroke:#333,stroke-width:2px
-    style E fill:#bfb,stroke:#333,stroke-width:1px
-    style F fill:#bfb,stroke:#333,stroke-width:1px
+    classDef default fill:none,stroke:#666,stroke-width:1px;
+    classDef highlight stroke:#333,stroke-width:2px;
+    class A,D highlight;
 
 ```
 
