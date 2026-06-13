@@ -1,0 +1,18 @@
+# results folder (big outputs)
+results/
+
+# Nextflow work directory
+work/
+
+# logs
+*.log
+
+# macOS junk
+.DS_Store
+
+# Nextflow cache
+.nextflow/
+
+# big report files (optional)
+pipeline_report.html
+
